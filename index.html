@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <title>
+            Assignment 2 Icons
+        </title>
+        
+        <style>
+             .row{
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin: 10px auto;
+            }
+            .image-container img{
+                width: 200px;
+            }
+        </style>
+    
+
+
+    </head>
+    <body style="background-color:royalblue;">
+           
+        <div class="row">
+            <div class="image-container"><img id="icon1" src="img/1.png" width="200" height="200"/></div>
+            <div class="image-container"><img id="icon2" src="img/2.png" width="200" height="200"/></div>
+            <div class="image-container"><img id="icon3" src="img/3.png" width="200" height="200"/></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="icon4" src="img/4.png" width="200" height="200"/></div>
+            <div class="image-container"><img id="icon5" src="img/5.png" width="200" height="200"/></div>
+            <div class="image container"><img id="icon6" src="img/6.png" width="200" height="200"/></div>
+        </div>
+
+        <div class="row">
+            <div class="image-container"><img id="icon7" src="img/7.png" width="200" height="200"/></div>
+            <div class="image-container"><img id="icon8" src="img/8.png" width="200" height="200"/></div>
+            <div class="image-container"><img id="icon9" src="img/9.png" width="200" height="200"/></div>
+        </div>
+
+        <script>
+            const icon1Element = document.getElementById ("icon1")
+            const iconSound = new Audio ()
+            iconSound.src="sounds/camera click_01.mp3"
+            icon1Element.onpointerdown = () => {
+                iconSound.play()
+                icon1Element.src="img/changed-1.png"
+                setTimeout (() => {
+                    icon1Element.src="img/1.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon2Element = document.getElementById ("icon2")
+            const iconSound2 = new Audio ()
+            iconSound2.src="sounds/bling_02.mp3"
+            icon2Element.onpointerdown = () => {
+                iconSound2.play()
+                icon2Element.src="img/changed-2.png"
+                setTimeout (() => {
+                    icon2Element.src="img/2.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon3Element = document.getElementById ("icon3")
+            const iconSound3 = new Audio ()
+            iconSound3.src="sounds/blink_03.mp3"
+            icon3Element.onpointerdown = () => {
+                iconSound3.play()
+                icon3Element.src="img/changed-3.png"
+                setTimeout (() => {
+                    icon3Element.src="img/3.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon4Element = document.getElementById ("icon4")
+            const iconSound4 = new Audio ()
+            iconSound4.src="sounds/tick tock_04.mp3"
+            icon4Element.onpointerdown = () => {
+                iconSound4.play()
+                icon4Element.src="img/changed-4.png"
+                setTimeout (() => {
+                    icon4Element.src="img/4.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon5Element = document.getElementById ("icon5")
+            const iconSound5 = new Audio ()
+            iconSound5.src="sounds/trash_05.mp3" 
+            icon5Element.onpointerdown = () => {
+                iconSound5.play()
+                icon5Element.src="img/changed-5.png"
+                setTimeout (() => {
+                    icon5Element.src="img/5.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon6Element = document.getElementById ("icon6")
+            const iconSound6 = new Audio ()
+            iconSound6.src="sounds/close book_06.mp3"
+            icon6Element.onpointerdown = () => {
+                iconSound6.play()
+                icon6Element.src="img/changed-6.png"
+                setTimeout (() => {
+                    icon6Element.src="img/6.png"
+                }, 2000)
+            }
+        </script> 
+
+        <script>
+            const icon7Element = document.getElementById ("icon7")
+            const iconSound7 = new Audio ()
+            iconSound7.src="sounds/scene fade_07.mp3"
+            icon7Element.onpointerdown = () => {
+                iconSound7.play()
+                icon7Element.src="img/changed-7.png"
+                setTimeout (() => {
+                    icon7Element.src="img/7.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon8Element = document.getElementById ("icon8")
+            const iconSound8 = new Audio ()
+            iconSound8.src="sounds/dark void_08.mp3"
+            icon8Element.onpointerdown = () => {
+                iconSound8.play()
+                icon8Element.src="img/changed-8.png"
+                setTimeout (() => {
+                    icon8Element.src="img/8.png"
+                }, 2000)
+            }
+        </script>
+
+        <script>
+            const icon9Element = document.getElementById ("icon9")
+            const iconSound9 = new Audio ()
+            iconSound9.src="sounds/elevator ding_09.mp3"
+            icon9Element.onpointerdown = () => {
+                iconSound9.play()
+                icon9Element.src="img/changed-9.png"
+                setTimeout (() => {
+                    icon9Element.src="img/9.png"
+                }, 2000)
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
